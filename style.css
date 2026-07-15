@@ -223,15 +223,47 @@ h1 {
 
     h1 {
 
-        font-size: 50px;
+        font-size: 45px;
 
-        margin: 10px;
+        margin: 10px 0;
+
+    }
+
+    .top {
+
+        gap: 8px;
+
+    }
+
+    .scoreBox {
+
+        padding: 8px 12px;
+
+        font-size: 12px;
+
+    }
+
+    .scoreBox span {
+
+        font-size: 20px;
+
+    }
+
+    #restart {
+
+        padding: 10px 18px;
+
+        font-size: 15px;
+
+        margin-bottom: 15px;
 
     }
 
     #board {
 
-        grid-template-columns: repeat(4, 20vw);
+        width: 94vw;
+
+        height: 94vw;
 
         gap: 2vw;
 
@@ -241,14 +273,15 @@ h1 {
 
     .cell {
 
-        width: 20vw;
+        width: calc((94vw - 10vw) / 4);
 
-        height: 20vw;
+        height: calc((94vw - 10vw) / 4);
 
         font-size: 8vw;
 
     }
 
+}
     .scoreBox {
 
         padding: 8px 15px;
@@ -271,7 +304,7 @@ h1 {
 
     }
 
-}
+
 * {
     user-select: none;
 }
