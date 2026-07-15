@@ -69,6 +69,8 @@
     margin-bottom: 20px;
 }
 body {
+    overFlow: hidden;
+    touch-action: none;
     display: flex;
     flex-direction: column;
     align-items: center;
