@@ -226,8 +226,9 @@ document.addEventListener("touchend", function(event) {
         }
     }
 });
-
-
+document.addEventListener("touchmove", function(event) {
+    event.preventDefault();
+}, { passive: false });
 
 addRandomTile();
 addRandomTile();
