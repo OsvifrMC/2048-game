@@ -258,64 +258,57 @@ h1 {
 
     h1 {
 
-        font-size: 42px;
+        font-size: 38px;
 
-        margin: 8px 0;
+        margin: 5px 0;
 
     }
 
     .top {
 
-        gap: 8px;
-
-        margin-bottom: 10px;
+        margin-bottom: 5px;
 
     }
 
     .scoreBox {
 
-        padding: 7px 14px;
-
-        font-size: 12px;
+        padding: 5px 12px;
 
     }
 
     .scoreBox span {
 
-        font-size: 20px;
+        font-size: 18px;
 
     }
 
     #restart {
 
-        padding: 9px 18px;
+        padding: 7px 15px;
 
-        font-size: 15px;
-
-        margin-bottom: 12px;
+        margin-bottom: 8px;
 
     }
 
     #board {
 
-        width: 88vw;
+        width: 82vw;
 
-        height: 88vw;
-
-        gap: 2vw;
+        height: 82vw;
 
         padding: 2vw;
+
+        gap: 1.5vw;
 
     }
 
     .cell {
 
-        font-size: 8vw;
-
-        border-radius: 5px;
+        font-size: 7vw;
 
     }
 
+}
     #gameOver h2 {
 
         font-size: 35px;
