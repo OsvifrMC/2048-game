@@ -289,26 +289,24 @@ h1 {
         margin-bottom: 8px;
 
     }
+#board {
 
-    #board {
+    width: 78vw;
 
-        width: 82vw;
+    height: 78vw;
 
-        height: 82vw;
+    gap: 1.5vw;
 
-        padding: 2vw;
-
-        gap: 1.5vw;
-
-    }
-
-    .cell {
-
-        font-size: 7vw;
-
-    }
+    padding: 1.5vw;
 
 }
+
+.cell {
+
+    font-size: 7vw;
+
+}
+   
     #gameOver h2 {
 
         font-size: 35px;
